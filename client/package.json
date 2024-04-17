@@ -1,0 +1,21 @@
+{
+  "name": "game-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./esbuild.js --watch",
+    "start": "node ./esbuild.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.20.2",
+    "esbuild-css-modules-plugin": "^3.1.1",
+    "esbuild-plugin-copy": "^2.1.1",
+    "esbuild-postcss": "^0.0.4",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  }
+}
